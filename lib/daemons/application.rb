@@ -30,7 +30,9 @@ module Daemons
       @dir_mode = @dir = @script = nil
       
       unless @pid = pid
-        if dir = pidfile_dir
+        if @options[:no_pidfiles]
+          @pid = PidMem.new
+        elsif dir = pidfile_dir
           @pid = PidFile.new(dir, @group.app_name, @group.multiple)
         else
           @pid = PidMem.new
