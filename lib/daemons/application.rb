@@ -38,7 +38,6 @@ module Daemons
           @pid = PidMem.new
         end
       end
-      change_privilege
     end
     
     def change_privilege
@@ -256,6 +255,7 @@ module Daemons
     
     
     def start
+      change_privilege
       @group.create_monitor(@group.applications[0] || self) unless options[:ontop]  # we don't monitor applications in the foreground
       
       case options[:mode]
