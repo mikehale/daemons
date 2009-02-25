@@ -246,7 +246,8 @@ module Daemonize
      
     if logfile_name
       begin
-        STDOUT.reopen logfile_name, "a" 
+        STDOUT.reopen logfile_name, "a"
+        File.chmod(0644, logfile_name)
         STDOUT.sync = true
       rescue ::Exception
         begin; STDOUT.reopen "/dev/null"; rescue ::Exception; end
