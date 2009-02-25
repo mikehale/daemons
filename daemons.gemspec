@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "daemons"
-  s.version  = "1.0.12.1"
+  s.version  = "1.0.12"
   s.date     = "2009-02-24"
   s.summary  = "A toolkit to convert your script to a controllable daemon (with Chris Kline's fix)"
   s.email    = "mikehale@gmail.com"
