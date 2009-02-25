@@ -55,6 +55,7 @@ module Daemons
     end
     
     def logdir
+      debugger
       logdir = options[:log_dir]
       unless logdir
         logdir = options[:dir_mode] == :system ? '/var/log' : pidfile_dir
