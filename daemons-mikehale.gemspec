@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
      "Releases",
      "TODO",
      "VERSION",
-     "daemons.gemspec",
+     "daemons-mikehale.gemspec",
      "examples/call/call.rb",
      "examples/call/call_monitor.rb",
      "examples/daemonize/daemonize.rb",
