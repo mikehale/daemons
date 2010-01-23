@@ -3,10 +3,10 @@ Quick'n'dirty Daemons Version 1.0.10 gem with fix by Chris Kline and additions b
 
 This is a clean import of Daemons 1.0.10, with the following changes:
 
-  # Applied Chris Kline's patch to "Making sure Ruby Daemons die" from http://blog.rapleaf.com/dev/?p=19.
-  # Added a gemspec to allow Github to build a gem.
-  # Includes ability to change the process uid/gid.
-  # logdir can be specified seperate from piddir.
+  * Applied Chris Kline's patch to "Making sure Ruby Daemons die" from http://blog.rapleaf.com/dev/?p=19.
+  * Added a gemspec to allow Github to build a gem.
+  * Includes ability to change the process uid/gid.
+  * logdir can be specified seperate from piddir.
 
 Daemons Version 1.0.10
 ====
