@@ -18,7 +18,7 @@ begin
     EOF
     gemspec.author = "Thomas Uehlinger"
     gemspec.email = "th.uehlinger@gmx.ch"
-    gemspec.homepage = "http://github.com/technicalpickles/the-perfect-gem"
+    gemspec.homepage = "http://gemcutter.org/gems/daemons-mikehale"
     gemspec.authors = ["Michael Hale", "Thomas Uehlinger", "Travis Whitton", "Chris Kline"]
   end
   Jeweler::GemcutterTasks.new
