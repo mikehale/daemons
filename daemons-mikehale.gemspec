@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{daemons-mikehale}
-  s.version = "1.0.13"
+  s.version = "1.0.14"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Hale", "Thomas Uehlinger", "Travis Whitton", "Chris Kline"]
@@ -73,7 +73,7 @@ Gem::Specification.new do |s|
      "lib/daemons/pidmem.rb",
      "setup.rb"
   ]
-  s.homepage = %q{http://github.com/technicalpickles/the-perfect-gem}
+  s.homepage = %q{http://gemcutter.org/gems/daemons-mikehale}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
